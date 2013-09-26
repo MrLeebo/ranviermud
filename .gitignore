@@ -1,3 +1,5 @@
 node_modules
 data/players/*.json
 *.swp
+config/aliases.json
+config/triggers.json
