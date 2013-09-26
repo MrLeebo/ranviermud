@@ -1,0 +1,47 @@
+-
+  title:
+    en: 'Abandoned Station Platform Terminal'
+    es: 'ES-'
+  description:
+    en: 'You are standing on an elevated train platform for boarding the gravity rail. There is a gravity car here, waiting to take you back to the Ship Control Hub. The platform continues to the north. There is a <bold>engineering office</bold> to the south.'
+    es: 'ES-'
+  exits:
+    -
+      location: 2
+      direction: 'north'
+    -
+      location: 3
+      direction: 'south'
+      leave_message:
+        en: " enters the engineer's office."
+        es: ' ES-'
+  location: 1
+  area: 'abandoned_station_platform_terminal'
+-
+  title:
+    en: 'Abandoned Station Platform Lift'
+    es: 'ES-'
+  location: 2
+  description:
+    en: 'You are at the end of the train platform, near the doors to a lift. The lights flicker on and off. In the distance to the south you can see the gravity car.'
+    es: 'ES-'
+  exits:
+    -
+      location: 1
+      direction: 'south'
+-
+  title:
+    en: "Abandoned Station Engineer's Office"
+    es: 'ES-'
+  location: 3
+  script: '3.js'
+  description:
+    en: 'The dimly lit office is coated in blood. There is a dead engineer here.'
+    es: 'ES-'
+  exits:
+    -
+      location: 1
+      direction: 'north'
+      leave_message:
+        en: ' goes out through the office door.'
+        es: 'ES-'

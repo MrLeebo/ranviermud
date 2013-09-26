@@ -1,6 +1,12 @@
 # RanvierMUD
 NodeJS based MUD engine with full localization support
 
+## Changes in this Fork
+* Converts the source code to Coffeescript
+* Includes Muddy as a submodule for a quick and simple browser front-end
+* Adds a Gruntfile to monitor file changes and restart Ranvier and Muddy (new, still quirky)
+* Redubbed the objects with science fiction themes because aliens and rifles are better than dragons and swords
+
 ## Features
 * Full localization for any strings displayed to the player after they log in. This isn't a common feature in MUDs so I'll explain it. Player A and Player B log in, play the same game and see a different language. Same items, npcs, rooms, etc, different language.
 * Scripting support: It's in Javascript! No need for a shitty DSL. The codebase is javascript, the scripting is javascript.
@@ -20,11 +26,15 @@ NodeJS based MUD engine with full localization support
 
 ## Up and running
 
-    git clone git://github.com/shawncplus/ranviermud
+    git clone git://github.com/MrLeebo/ranviermud
     cd ranviermud
+    npm install -g grunt-cli
+    npm install -g nodemon
     npm install
-    sudo ./ranvier -v --save=10 --respawn=10
-    
+    cd muddy
+    npm install
+    cd ..
+    grunt
 
 ## Documentation
 Holy crap there is actually documentation and guides for this thing!

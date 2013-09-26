@@ -1,0 +1,18 @@
+- &combat_knife
+    vnum: 2
+    short_description:
+        en: "a combat knife"
+        es: "ES-"
+    keywords:
+        en: [ "combat knife", "knife", "dagger" ]
+        es: [ "ES-" ]
+    description:
+        en: "A very sharp knife, probably belonging to a marine."
+        es: "ES-"
+    behaviors: "wieldable"
+    attributes:
+        speed: 0.6
+        damage: 1-7
+    load_max: 3
+- <<: *combat_knife
+  room: 1

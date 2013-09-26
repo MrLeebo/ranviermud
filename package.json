@@ -6,12 +6,19 @@
 		"js-yaml":"",
 		"localize":"",
 		"node-uuid":"",
-		"optimist":"",
 		"sprintf":"",
 		"sty":"",
 		"yaml":"",
 		"express":"",
 		"jade":"",
-		"commander": ""
+		"commander":"",
+		"coffee-script":"",
+		"underscore":""
+	},
+	"devDependencies":{
+		"grunt":"",
+		"grunt-concurrent":"",
+		"grunt-contrib-watch":"",
+		"grunt-nodemon":""
 	}
 }

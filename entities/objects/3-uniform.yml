@@ -1,0 +1,18 @@
+- &uniform
+    vnum: 3
+    short_description:
+        en: "a ship uniform"
+        es: "ES-"
+    keywords:
+        en: [ "uniform", "ship uniform", "clothes" ]
+        es: [ "uniform" ]
+    description:
+        en: "A common ship uniform for low-ranking crew."
+        es: "ES-"
+    script: "3-uniform.js"
+    behaviors: "wearable"
+    attributes:
+        defense: 1
+    load_max: 4
+- <<: *uniform
+  room: 3

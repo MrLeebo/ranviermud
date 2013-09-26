@@ -1,7 +1,12 @@
+SKILLS:
+    en: "Skills:"
+    es: "ES-Skills:"
 SKILL_DESC:
     en: "Description: $[1]"
     es: "ES-Description: $[1]"
 SKILL_COOLDOWN:
     en: "Cooldown: <magenta>$[1]</magenta>"
     es: "Cooldown: ES-<magenta>$[1]</magenta>"
-
+NO_SKILLS:
+    en: "<bold>What a layabout!</bold> You have no skills."
+    es: "ES-<bold>What a layabout!</bold> You have no skills."

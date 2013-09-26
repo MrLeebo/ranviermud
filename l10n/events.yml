@@ -1,5 +1,5 @@
 WELCOME:
-    en: "<yellow>Welcome back, $[1]</yellow>"
+    en: "<yellow>Welcome back, $[1]</yellow><br/>"
     es: "ES-Welcome back, $[1]"
 NAME_PROMPT:
     en: "What is your character's name: "

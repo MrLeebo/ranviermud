@@ -1,0 +1,27 @@
+- &alien
+  vnum: 1
+  script: '1.js'
+  keywords:
+    en: ['alien']
+    es: ['ES-alien']
+  short_description:
+    en: 'an alien'
+    es: 'ES-'
+  description:
+    en: 'The alien creature stalks its prey.'
+    es: 'ES-'
+  behaviors: "rtcombat"
+  attributes:
+    max_health: 80
+    health: 80
+    speed: 2
+    damage: 7-16
+    level: 4
+    experience: 1000
+  load_max: 7
+- <<: *alien
+  room: 3
+- <<: *alien
+  room: 3
+- <<: *alien
+  room: 2

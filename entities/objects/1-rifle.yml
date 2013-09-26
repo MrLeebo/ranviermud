@@ -1,0 +1,19 @@
+- &rifle
+    vnum: 1
+    short_description:
+        en: "a rifle"
+        es: "ES-"
+    keywords:
+        en: [ "rifle", "gun" ]
+        es: [ "rifle" ]
+    description:
+        en: "A well-charged marine rifle."
+        es: "ES-"
+    script: "1-rifle.js"
+    behaviors: "wieldable"
+    attributes:
+        speed: 2.5
+        damage: 15-20
+    load_max: 4
+- <<: *rifle
+  room: 2
